@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Security.Policy;
 
 namespace ArrayBubbleSort
@@ -31,6 +31,17 @@ namespace ArrayBubbleSort
 
             Console.WriteLine("_____________________Imprimindo em orden decrescente_____________________");
             OrdernarDecrescente();
+            Imprimir();
+
+
+            Console.WriteLine("_____________________Imprimindo em Com Array Sort_____________________");
+            Array.Sort(numeros);
+            Imprimir();
+
+
+            Console.WriteLine("_____________________Imprimindo em Com Reverse_____________________");
+            Array.Sort(numeros);
+            Array.Reverse(numeros);
             Imprimir();
 
         }
